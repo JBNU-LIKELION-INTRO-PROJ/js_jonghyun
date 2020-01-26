@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" integrity="sha256-04h4YCjSsnxj8CEs2pl8UvK165Dbt+WAmh4OrhObOCM=" crossorigin="anonymous" />
+    <style>
+        h2{
+            color:wheat;
+            text-align: center;
+        }
+        .s1{
+            background-image: url(./images/2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .s2{
+            background-image: url(./images/3.jpg);
+            background-size: cover;
+            background-position:center;
+            background-repeat:no-repeat;
+        }
+        .s3{
+            background-image: url(./images/4.jpg);
+            background-size: cover;
+            background-position:center;
+            background-repeat:no-repeat;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div id="fullpage">
+
+        <div class="section s1">
+            <h2>The First section</h2>
+        </div>
+
+        <div class="section s2">
+            <h2>The Second section</h2>
+        </div>
+
+        <div class="section s3">
+            <h2>The Third section</h2>
+        </div>
+
+    
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha256-C19V3BEZT3jDhm7hctby8ZYhoXDJr0DxagpwB4RIpWc=" crossorigin="anonymous"></script>
+ 
+    <script>
+        new fullpage('#fullpage',{
+            autoScrolling: true
+        })
+    </script>
+
+</body> 
+</html>
